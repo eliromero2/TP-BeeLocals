@@ -82,6 +82,7 @@
 
 .texto-portada {
     background-color: #F5D6A6;
+    background-image: var(--bs-gradient);
     width: 35%;
     height: 50%;
     position: relative;
@@ -99,6 +100,7 @@
 
 footer a:hover {
     text-decoration: underline;
+    color: black;
 }
 
 .carousel {
@@ -113,4 +115,8 @@ footer a:hover {
     background-color: #ffff;
     z-index: -1;
     top: 261px;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
 }

@@ -5198,7 +5198,7 @@ small {
   font-size: 1.3rem;
   line-height: inherit;
 }
-
+/*
 .btn:focus, .btn-large:focus,
 .btn-floating:focus {
   background-color: #1d7d74;
@@ -5217,7 +5217,7 @@ small {
 
 .btn:hover, .btn-large:hover {
   background-color: #2bbbad;
-}
+}*/
 
 .btn-floating {
   display: inline-block;
@@ -5981,7 +5981,7 @@ label {
   color: #d1d1d1;
 }
 
-/* Text inputs */
+/* Text inputs *//*
 input:not([type]),
 input[type=text]:not(.browser-default),
 input[type=password]:not(.browser-default),
@@ -6012,7 +6012,7 @@ textarea.materialize-textarea {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-
+*/
 input:not([type]):disabled, input:not([type])[readonly="readonly"],
 input[type=text]:not(.browser-default):disabled,
 input[type=text]:not(.browser-default)[readonly="readonly"],
@@ -6070,7 +6070,7 @@ textarea.materialize-textarea:disabled + label,
 textarea.materialize-textarea[readonly="readonly"] + label {
   color: rgba(0, 0, 0, 0.42);
 }
-
+/*
 input:not([type]):focus:not([readonly]),
 input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
@@ -6103,7 +6103,7 @@ input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=search]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label {
   color: #26a69a;
-}
+}*/
 
 input:not([type]).validate + label,
 input[type=text]:not(.browser-default).validate + label,
@@ -8185,7 +8185,7 @@ input[type=range]:focus::-ms-fill-upper {
   overflow: hidden;
   position: relative;
   width: 100%;
-  height: 400px;
+  height: 375px;
   -webkit-perspective: 500px;
           perspective: 500px;
   -webkit-transform-style: preserve-3d;
@@ -8492,17 +8492,17 @@ input[type=range]:focus::-ms-fill-upper {
 
 /**
  * The picker input element.
- */
+ 
 .picker__input {
   cursor: default;
-}
+}*/
 
 /**
  * When the picker is opened, the input element is "activated".
- */
+ 
 .picker__input.picker__input--active {
   border-color: #0089ec;
-}
+}*/
 
 /**
  * The holder is the only "scrollable" top-level container element.
