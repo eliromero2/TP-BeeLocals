@@ -226,7 +226,6 @@ $('.carousel').mousemove(function () {
 
 $(".button-collapse").sideNav();
 
-
 $('.menu-des').click(function () {
     $('.button-collapse').sideNav('show');
 });
@@ -234,6 +233,6 @@ $('.menu-des').click(function () {
 $('.dropdown-button').dropdown({
     inDuration: 300,
     outDuration: 225,
-    constrainWidth: false, // Does not change width of dropdown to that of the activator
+    constrainWidth: false,
 }
 );
