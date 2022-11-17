@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.carousel').carousel( {
+    $('.carousel').carousel({
         padding: 125,
     });
 });
@@ -223,3 +223,17 @@ $('.carousel').mousemove(function () {
         $('#imagenCinco').removeClass('zoom');
     }
 });
+
+$(".button-collapse").sideNav();
+
+
+$('.menu-des').click(function () {
+    $('.button-collapse').sideNav('show');
+});
+
+$('.dropdown-button').dropdown({
+    inDuration: 300,
+    outDuration: 225,
+    constrainWidth: false, // Does not change width of dropdown to that of the activator
+}
+);

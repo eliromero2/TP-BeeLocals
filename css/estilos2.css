@@ -66,7 +66,40 @@
     text-transform: none;
     font-weight: 700;
     font-size: large;
+    -webkit-font-feature-settings: "lnum";
+    -moz-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
     color: black;
+}
+
+.raleway-medium {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    -webkit-font-feature-settings: "lnum";
+    -moz-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+    color: black;
+}
+
+.raleway-bold-medium {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: medium;
+    -webkit-font-feature-settings: "lnum";
+    -moz-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+    color: black;
+}
+
+.raleway-small {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    -webkit-font-feature-settings: "lnum";
+    -moz-font-feature-settings: "lnum";
+    font-feature-settings: "lnum";
+    color: #979292dd
 }
 
 .nav-text:hover {
